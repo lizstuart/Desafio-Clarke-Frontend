@@ -1,0 +1,71 @@
+.header{
+    width: 100vw;
+    height: 160px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 100px;
+
+    border-bottom: 1px solid rgb(48, 141, 39);
+}
+
+.menu{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    flex-direction: row;
+    
+    gap: 30px;
+
+    font-family:'Rajdhani', sans-serif;
+    letter-spacing: 1px;
+}
+
+.options-menu{
+    width: 180px;
+    height: 60px;
+    border-radius: 50px;
+    border: 1px solid rgb(156, 238, 160);
+    padding: 8px;
+    background-color: rgb(80, 177, 85);
+    cursor: pointer;
+
+    font-family:'Rajdhani', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+
+.options-menu:hover{
+    color: beige;
+}
+
+.option-be-client{
+    border-radius: 50px;
+    border: 1px solid rgb(19, 70, 14);
+    padding: 8px;
+    background-color: rgb(19, 70, 14);
+    color: white;
+    width: 180px;
+    height: 60px;
+
+    font-family:'Rajdhani', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.option-be-client:hover{
+    color: rgb(77, 240, 56);
+}
+
+
+.logo{
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+}
